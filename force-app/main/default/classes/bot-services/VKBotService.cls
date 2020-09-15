@@ -100,6 +100,13 @@ global with sharing class VKBotService extends BotService {
         });
     }
 
+    global Callout getProfileInfo(String userId) {
+        return new Callout(
+                getEndpoint('users.get', new Map<String, String>{ 'user_ids' => userId }),
+                CalloutHelper.METHOD_GET
+        );
+    }
+
 
     protected override String getEndpoint(String method) {
         return this.botSettings.API_Url__c + CalloutHelper.SLASH + method;
