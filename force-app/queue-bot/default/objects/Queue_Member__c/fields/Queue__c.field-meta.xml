@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Queue__c</fullName>
+    <externalId>false</externalId>
+    <label>Queue</label>
+    <referenceTo>Queue__c</referenceTo>
+    <relationshipLabel>Queue Members</relationshipLabel>
+    <relationshipName>Queue_Members</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

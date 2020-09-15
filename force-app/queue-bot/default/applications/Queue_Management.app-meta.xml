@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Queue Management</label>
+    <navType>Standard</navType>
+    <tabs>Group__c</tabs>
+    <tabs>Sub_Group__c</tabs>
+    <tabs>Group_Member__c</tabs>
+    <tabs>Queue__c</tabs>
+    <tabs>Queue_Member__c</tabs>
+    <tabs>Subject__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Queue_Management_UtilityBar</utilityBar>
+</CustomApplication>
